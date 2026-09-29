@@ -1,0 +1,3 @@
+department_id,department_name,is_inactive,last_modified_at
+1,Finance,False,2026-09-01 12:00:00
+2,Operations,False,2026-09-01 12:00:00
