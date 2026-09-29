@@ -1,0 +1,4 @@
+transaction_id,transaction_number,transaction_type,transaction_date,posting_period_id,subsidiary_id,currency_id,exchange_rate,posting_flag,memo,last_modified_at
+10001,JE10001,JOURNAL,2026-01-15,202601,10,1,1.0,True,January accrual,2026-01-15 18:00:00
+10002,INV10002,INVOICE,2026-02-10,202602,10,1,1.0,True,Customer invoice,2026-02-10 18:00:00
+10003,JE10003,JOURNAL,2026-02-20,202602,20,2,1.0,True,EU operating entry,2026-02-20 18:00:00
