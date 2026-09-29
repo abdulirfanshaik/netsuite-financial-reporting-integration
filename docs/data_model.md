@@ -40,3 +40,14 @@ Financial views that expose income-statement and balance-sheet-friendly aggregat
 
 ### CONTROL
 Pipeline execution metadata and reconciliation exceptions.
+
+
+## Interview Talking Points
+
+When presenting this model in an interview, emphasize the explicit transaction-line grain, controlled header-to-line relationships, deduplicated dimensions, posted-only reporting, and the separation between RAW, CONFORMED, REPORTING, and CONTROL layers.
+
+Key files to reference:
+- `sql/02_conformed_models.sql`
+- `sql/04_reporting_views.sql`
+- `sql/05_reconciliation.sql`
+- `docs/interview_guide.md`
