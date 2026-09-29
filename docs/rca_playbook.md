@@ -88,3 +88,16 @@
 **Remediation:**
 - Fix the source/target contract or coercion rule.
 - Re-run idempotently from the last successful watermark.
+
+
+## RCA Interview Framework
+
+Use the sequence **Detect → Scope → Compare → Isolate → Explain → Correct → Prevent**.
+
+For financial discrepancies, start at the reporting variance, narrow by period/subsidiary/account, compare row counts and amounts between layers, test key uniqueness and join cardinality, inspect source-versus-target records, correct the underlying logic, replay idempotently, and add a regression test or reconciliation control.
+
+Related files:
+- `sql/05_reconciliation.sql`
+- `sql/06_rca_queries.sql`
+- `sql/07_exception_capture.sql`
+- `docs/interview_guide.md`
