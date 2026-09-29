@@ -1,0 +1,3 @@
+accounting_period_id,period_name,start_date,end_date,is_closed,last_modified_at
+202601,Jan 2026,2026-01-01,2026-01-31,True,2026-09-01 12:00:00
+202602,Feb 2026,2026-02-01,2026-02-28,True,2026-09-01 12:00:00
