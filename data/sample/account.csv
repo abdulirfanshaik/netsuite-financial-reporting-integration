@@ -1,0 +1,6 @@
+account_id,account_number,account_name,account_type,is_inactive,last_modified_at
+100,1000,Cash,ASSET,False,2026-09-01 12:00:00
+200,2000,Accounts Payable,LIABILITY,False,2026-09-01 12:00:00
+400,4000,Product Revenue,INCOME,False,2026-09-01 12:00:00
+500,5000,Operating Expense,EXPENSE,False,2026-09-01 12:00:00
+599,5999,Legacy Expense,EXPENSE,True,2026-09-01 12:00:00
